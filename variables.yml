@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: true
+  gather_facts: yes
+  vars:
+    user_name: serge2029
+    group_name: devops
+  vars_files:
+    - variables.yml
+    
